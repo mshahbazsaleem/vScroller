@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<newslist title="Latest News">
+  <news category="red" url="http://www.egrappler.com/jquery-pushup-content-bar/" date="01-01-2011">
+    <headline>jQuery Sliding Content Bar Plugin</headline>
+    <detail>You do not have to be a muscular giant to know the benefits of push ups. Push up is good to keep you active, smart, strong and quick just like the PushUp Content Bar that we are releasing today.</detail>
+  </news>
+  <news category="green" url="http://www.egrappler.com/rss-driven-dynamic-jquery-news-slider-plugin-dynamic-news/" date="01-12-2011">
+    <headline>jQuery News Slider Plugin</headline>
+    <detail>Dynamic News is a jQuery news slider plugin that makes news integration to your web site very easy. Dynamic News plugin supports two ways to add news data. You can either enter your news via HTML markups manually or let Dynamic News plugin load the news from rss feed and build the necessary HTML markups automatically.</detail>
+  </news>
+  <news category="blue" url="http://www.egrappler.com/jquery-contentthumbnail-slder-v2-0-jscarousel-v2-0/" date="01-22-2011">
+    <headline>jQuery Carousel Slider Plugin</headline>
+    <detail>  
+      jsCarousel v2.0 is a jquery slider plugin that slides contents in multi direction. Now it supports both horizontal and vertical orientation, see the screen shot below. jsCarousel v2.0 slider can be used as a feature content slider as well. You can put any kind of contents you want whether images, text, videos, news etc. it's up to you.</detail>
+  </news>
+  <news category="yellow" url="http://www.egrappler.com/jquery-pagination-plugin-smart-paginator/" date="01-24-2011">
+    <headline>jQuery Pagination Plugin</headline>
+    <detail>Smart Paginator is a comprehensive jQuery Pagination plugin that makes adding pagination very simple task, all the navigation logic is built in and it is also very customizable. Smart Paginator jQuery Pagination plugincan also filter your data automatically on client side.</detail>
+  </news>
+</newslist>

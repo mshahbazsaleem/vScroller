@@ -1,0 +1,156 @@
+﻿
+.news-wrapper
+{
+	margin-top: 100px;
+	background-color: #333333;
+	background: url(../images/bg.jpg);
+}
+.news-wrapper .news-contents-wrapper
+{
+	width: 400px;
+	margin: auto;
+	border-right: 1px dashed #6a6a6a;
+	border-left: 1px dashed #6a6a6a;
+	height: 400px;
+}
+.news-wrapper .news-contents
+{
+	overflow: hidden;
+	position: relative;
+	z-index: 998;
+	height: 308px;
+}
+.news-wrapper .news
+{
+	width: 100%;
+	height: 100px;
+	color: #6a6a6a;
+	position: absolute;
+	z-index: 999;
+	border-bottom: 1px dashed #6a6a6a;
+}
+.news-wrapper .news-header
+{
+	color: White;
+	height: 20px;
+	font-weight: bold;
+	font-size: 14px;
+	padding-top: 12px;
+	padding-left: 32px;
+}
+h1
+{
+	color: White;
+	font-size: 14px;
+}
+.clear
+{
+	clear: both;
+}
+.circle-outer
+{
+	width: 56px;
+	height: 56px;
+	border-radius: 39px;
+	-moz-border-radius: 39px;
+	-webkit-border-radius: 39px;
+	text-align: center;
+	vertical-align: middle;
+	border: solid 8px #40474F;
+	overflow: hidden;
+	font-size: 14px;
+	font-weight: bold;
+	background-color: #40474F;
+}
+.circle
+{
+	width: 56px;
+	height: 56px;
+	border-radius: 32px;
+	-moz-border-radius: 32px;
+	-webkit-border-radius: 32px;
+	text-align: center;
+	vertical-align: middle;
+	overflow: hidden;
+	font-size: 14px;
+	font-weight: bold;
+}
+.circle.red
+{
+	color: #811919;
+	background: -webkit-gradient(linear, left top, left bottom, from(#E95F5F), to(#C64444));
+	background-image: -moz-linear-gradient(#E95F5F, #C64444);
+	background-image: -webkit-linear-gradient(#E95F5F, #C64444);
+	background-image: -o-linear-gradient(#E95F5F, #C64444);
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#E95F5F, endColorstr=#C64444);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#E95F5F, endColorstr=#C64444)";
+}
+.circle.yellow
+{
+	color: #956537;
+	background: -webkit-gradient(linear, left top, left bottom, from(#FED86D), to(#FFBD4E));
+	background-image: -moz-linear-gradient(#FED86D, #FFBD4E);
+	background-image: -webkit-linear-gradient(#FED86D, #FFBD4E);
+	background-image: -o-linear-gradient(#FED86D, #FFBD4E);
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#FED86D, endColorstr=#FFBD4E);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#FED86D, endColorstr=#FFBD4E)";
+}
+.circle.green
+{
+	color: #566F38;
+	background: -webkit-gradient(linear, left top, left bottom, from(#C4D8A6), to(#C4D8A6));
+	background-image: -moz-linear-gradient(#C4D8A6, #C4D8A6);
+	background-image: -webkit-linear-gradient(#C4D8A6, #C4D8A6);
+	background-image: -o-linear-gradient(#C4D8A6, #C4D8A6);
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#C4D8A6, endColorstr=#C4D8A6);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#C4D8A6, endColorstr=#C4D8A6)";
+}
+.circle.blue
+{
+	color: #2E5E6C;
+	background: -webkit-gradient(linear, left top, left bottom, from(#A3CCD8), to(#5E9EB7));
+	background-image: -moz-linear-gradient(#A3CCD8, #5E9EB7);
+	background-image: -webkit-linear-gradient(#A3CCD8, #5E9EB7);
+	background-image: -o-linear-gradient(#A3CCD8, #5E9EB7);
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#A3CCD8, endColorstr=#5E9EB7);
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#A3CCD8, endColorstr=#5E9EB7)";
+}
+
+.history
+{
+	padding-top: 14px;
+	float: left;
+	width: 26%;
+	padding-left: 32px;
+}
+.description
+{
+	float: left;
+	width: 64%;
+	padding: 4px;
+}
+.description .detail
+{
+	font-size: 12px;
+	overflow: hidden;
+	color:#B1B1B1;
+}
+.elipses, .day, .month
+{
+	display: block;
+	height: 10px;
+}
+.day, .month
+{
+	padding-top: 6px;
+}
+h1 a, h1 a:active, h1 a:visited
+{
+	text-decoration: none;
+	color:White;
+}
+h1 a:hover
+{
+	text-decoration: underline;
+	color:White;
+}
